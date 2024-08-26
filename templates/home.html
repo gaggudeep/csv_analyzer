@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSV Upload</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Data analyzer</h1>
+        <form action="/summary" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <input type="file" name="file" class="form-control-file" accept=".csv" required>
+            </div>
+            <button type="submit" name="action" value="upload_csv" class="btn btn-primary">Upload CSV</button>
+            <button type="submit" name="action" value="summarize_only_csv" class="btn btn-secondary">Summarize and don't upload the CSV</button>
+        </form>
+        <div class="mt-1">
+            <form action="/summary">
+                <button type="submit" name="action" value="summarize_all_data" class="btn btn-secondary">Summarize all data uploaded so far</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

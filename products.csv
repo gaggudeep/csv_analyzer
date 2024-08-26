@@ -1,0 +1,11 @@
+name,category,price,quantity_sold,rating,review_count
+Widget A,Electronics,19.99,100,4.5,150
+Widget B,Electronics,29.99,80,4.0,120
+Widget C,Furniture,89.99,50,4.7,90
+Widget D,Electronics,,200,4.2,180
+Widget E,Furniture,79.99,,4.5,85
+Widget F,Clothing,14.99,300,4.3,210
+Widget G,Clothing,9.99,250,4.1,190
+Widget H,Furniture,,40,4.2,100
+Widget I,Electronics,39.99,,4.0,160
+Widget J,Clothing,12.99,150,4.0,130
